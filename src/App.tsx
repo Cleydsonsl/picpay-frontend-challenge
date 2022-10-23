@@ -3,7 +3,7 @@ import { GlobalStyle } from './styles/global';
 import { Routers } from './Routers';
 
 export function App() {
-
+  
   return (
     <BrowserRouter>
       <GlobalStyle/>
