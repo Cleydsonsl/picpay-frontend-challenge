@@ -31,7 +31,8 @@ export const Brand = styled.div`
 export const Title = styled.h1`
   color: ${mixins.colors.text};
   font-size: 36px;
-  font-family: ${mixins.fonts.bold};
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 
   margin-bottom: 50px;
 `;

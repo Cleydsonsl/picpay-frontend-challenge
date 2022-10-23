@@ -8,6 +8,8 @@ export const Container = styled.button`
   padding: 18px;
   border-radius: 5px;
   align-items: center;
+  border: none;
+  outline: 0;
 
 `;
 

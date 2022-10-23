@@ -16,9 +16,8 @@ export const mixins = {
 
   },
   fonts: {
-    abel: 'Abel-Regular',
-    light: 'Lato-Light',
-    regular: 'Lato-Regular',
-    bold: 'Lato-Bold'
+    regular: 'Roboto-Regular',
+    medium: 'Roboto-Medium',
+    bold: 'Roboto-Bold'
   }
 }

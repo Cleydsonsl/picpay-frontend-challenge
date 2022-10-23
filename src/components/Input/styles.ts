@@ -15,6 +15,7 @@ export const Container = styled.input`
   border: solid 2px ${mixins.colors.border};
 
   margin-bottom: 20px;
+  outline: 0;
 
   ::placeholder {
     color: ${mixins.colors.text_light};
