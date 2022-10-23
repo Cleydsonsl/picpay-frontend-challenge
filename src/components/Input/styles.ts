@@ -11,7 +11,7 @@ export const Container = styled.input`
 
   color: ${mixins.colors.text};
   background: ${mixins.colors.background};
-  border-radius: 5px;
+  border-radius: 10px;
   border: solid 2px ${mixins.colors.border};
 
   margin-bottom: 20px;

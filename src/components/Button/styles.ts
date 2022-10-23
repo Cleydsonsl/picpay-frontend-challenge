@@ -6,7 +6,7 @@ export const Container = styled.button`
   background: ${mixins.colors.primary};
 
   padding: 18px;
-  border-radius: 5px;
+  border-radius: 10px;
   align-items: center;
   border: none;
   outline: 0;
