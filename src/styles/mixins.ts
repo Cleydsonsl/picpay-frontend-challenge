@@ -14,10 +14,5 @@ export const mixins = {
 
     error: '#CE2020'
 
-  },
-  fonts: {
-    regular: 'Roboto-Regular',
-    medium: 'Roboto-Medium',
-    bold: 'Roboto-Bold'
   }
 }

@@ -10,11 +10,10 @@ export const Container = styled.button`
   align-items: center;
   border: none;
   outline: 0;
-
 `;
 
 export const Title = styled.h3`
-  font-family: ${mixins.fonts.bold};
   font-size: 20px;
   color: ${mixins.colors.shape};
+  font-weight: 500;
 `

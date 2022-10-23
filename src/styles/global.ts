@@ -23,9 +23,16 @@ export const GlobalStyle = createGlobalStyle`
         background: ${mixins.colors.background};
         -webkit-font-smoothing: antialiased;
     }
+
+    body, input, textarea {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+    }
+
     button { 
         cursor: pointer;
     }
+
     [disabled] {
         opacity: 0.6;
         cursor: not-allowed;

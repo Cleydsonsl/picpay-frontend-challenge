@@ -5,8 +5,8 @@ export function App() {
 
   return (
     <>
-      <GlobalStyle/>
       <SignIn/>
+      <GlobalStyle/>
     </>
   )
 }

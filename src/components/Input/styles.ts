@@ -7,7 +7,7 @@ export const Container = styled.input`
   padding: 18px 16px;
 
   font-size: 16px;
-  font-family: ${mixins.fonts.regular};
+  font-weight: 400;
 
   color: ${mixins.colors.text};
   background: ${mixins.colors.background};
