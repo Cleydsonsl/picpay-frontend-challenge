@@ -11,7 +11,6 @@ export const Login = styled.div`
   width: 40%;
   padding: 100px;
   display: flex;
-  align-items: center;
   justify-content: center;
   flex-direction: column;
 `;
@@ -27,4 +26,17 @@ export const Brand = styled.div`
   img {
     max-height: 943px;
   }
+`;
+
+export const Title = styled.h1`
+  color: ${mixins.colors.text};
+  font-size: 36px;
+  font-family: ${mixins.fonts.bold};
+
+  margin-bottom: 50px;
+`;
+
+export const Logo = styled.img`
+  width: 175px;
+  margin-bottom: 15px;
 `
