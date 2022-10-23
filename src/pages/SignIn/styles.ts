@@ -8,7 +8,12 @@ export const Container = styled.div`
 `;
 
 export const Login = styled.div`
-  width: 33%;
+  width: 40%;
+  padding: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 `;
 
 export const Brand = styled.div`
