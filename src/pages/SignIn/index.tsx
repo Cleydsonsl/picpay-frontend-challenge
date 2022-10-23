@@ -1,6 +1,7 @@
 import React from 'react';
 
 import brandImg from '../../assets/brand.svg'
+import { Button } from '../../components/Button';
 import { Input } from '../../components/Input';
 
 import { Container, Brand, Login } from './styles';
@@ -11,6 +12,7 @@ export function SignIn(){
       <Login>
         <Input placeholder='Email'></Input>
         <Input placeholder='Senha'></Input>
+        <Button title='ENTRAR'></Button>
       </Login>
       <Brand>
         <img src={brandImg} alt="brand" />
