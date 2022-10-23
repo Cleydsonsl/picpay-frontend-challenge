@@ -6,6 +6,7 @@ export const Container = styled.div`
   width: 100%;
   background-color: ${mixins.colors.shape};
   padding: 30px;
+  border-radius: 10px;
 `;
 
 export const Table = styled.table`
