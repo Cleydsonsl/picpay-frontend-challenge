@@ -7,7 +7,7 @@ export const Container = styled.div`
   background: ${mixins.colors.background};
 `;
 
-export const Login = styled.div`
+export const Login = styled.form`
   width: 40%;
   padding: 100px;
   display: flex;
@@ -39,4 +39,9 @@ export const Title = styled.h1`
 export const Logo = styled.img`
   width: 175px;
   margin-bottom: 15px;
-`
+`;
+
+export const Fomr = styled.form`
+  flex: 1;
+  width: 100%;
+`;
